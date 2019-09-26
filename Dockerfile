@@ -13,6 +13,3 @@ RUN				apt-get update; apt-get -y upgrade; \
 
 
 
-
-EXPOSE 2223
-CMD ["/usr/sbin/sshd", "-D"]
